@@ -1,44 +1,124 @@
 /* IMPOSTAZIONI GENERALI */
 body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    width: 50%; margin-left: auto; margin-right: auto;
-    background-image: url("assets/img/sfondo.png") ;  text-align:center;
-    padding: 2em;
-  }
-main { background-color: white; margin: 2em; padding: 2em; text-align: left;}
-strong {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: darkmagenta;
-  }
-.input { text-decoration: dotted solid;}
-.list {margin: 2em; }
-h1 {font-size: larger;}
-h2 {font-size: large;}
-h5 {color: darkgrey; }
-.bold {font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;}
-table { margin: 2em;}
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("assets/img/sfondo.png");
+  text-align: center;
+  padding: 2em;
+}
+main {
+  background-color: white;
+  margin: 2em;
+  padding: 2em;
+  text-align: left;
+}
+span {
+  border: 1px solid rgb(134, 134, 134);
+  border-radius: 1.5em;
+  background-color: rgb(223, 223, 223);
+}
+link {
+}
+
+.bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.shadow {
+}
+
 /* HEADER */
-.background_blue {text-align: center; color: white; padding: 1.5em; background:linear-gradient(rgb(25, 160, 184), rgb(11, 64, 80)); margin: 2em; padding: 2em;} 
-#logo {width: 15em; margin: 1em;}
-
+.background_blue {
+  text-align: center;
+  color: white;
+  padding: 1.5em;
+  background: linear-gradient(rgb(29, 181, 207), rgb(11, 64, 80));
+  margin: 2em;
+  padding: 2em;
+}
+#logo {
+  width: 15em;
+  margin: 1em;
+}
 /* MAIN */
-.center {text-align: center;}
-
+.center {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.list {
+  margin: 2em;
+}
+h1 {
+  font-size: larger;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+h2 {
+  font-size: large;
+}
+h5 {
+  color: darkgrey;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+strong {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: darkmagenta;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
-#video { width: 100%; border-radius: 1.5em; margin-top: 1em; margin-bottom: 1em;}
-
+#video {
+  width: 100%;
+  border-radius: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 /* TABELLE */
-
+table {
+  margin: 2em;
+}
 /* FORM */
-
+.input {
+  border-bottom: 1px dashed;
+}
+#invio {
+  background-color: rgb(34, 133, 231);
+  color: white;
+}
 /* ELEMENTI NELL' ASIDE */
-.box { background-color: rgb(219, 218, 218); padding: 1em; margin: 1em;}
-
+.box {
+  background-color: rgb(219, 218, 218);
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+li > div {
+  font-size: small;
+  text-align: right;
+  margin: 0.5em;
+}
+.block {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 /* FOOTER */
-#mail {color: rgb(215, 53, 255);}
+.background_gradient {
+  text-align: center;
+  color: white;
+  padding: 1.5em;
+  background: linear-gradient(rgb(19, 100, 124), rgb(6, 41, 48));
+  margin: 2em;
+  padding: 2em;
+}
+#mail {
+  color: rgb(255, 53, 221);
+}

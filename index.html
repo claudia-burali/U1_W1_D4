@@ -25,7 +25,7 @@
     />
   </head>
   <body>
-    <header class="background_blue">
+    <header class="background_blue shadow">
       <img id="logo" src="/assets/img/logo.svg" />
       <h1>EPICODE - IL BLOG DEI DEVELOPERS</h1>
       <ul>
@@ -44,7 +44,7 @@
         </li>
       </ul>
     </header>
-    <main>
+    <main class="shadow">
       <h2 class="bold">Come creare un template per i post</h2>
       <h5>di Mario Rossi - pubblicato il 25-10-2020</h5>
       <p>
@@ -84,7 +84,7 @@
         diffusione pressoché totale.
       </p>
       <table>
-        <caption style="font-weight: 700">
+        <caption class="bold">
           Diffusione dei CSS
         </caption>
         <thead>
@@ -147,34 +147,37 @@
         </p>
         <form class="center" onsubmit="alert('Grazie mille!')">
           <input class="input" type="email" placeholder="indirizzo e-mail" />
-          <button type="submit">Iscriviti!</button>
+          <button id="invio" type="submit">Iscriviti!</button>
         </form>
       </aside>
       <nav>
         <h4 class="bold center">ARTICOLI CORRELATI</h4>
         <ul>
           <li class="box">
-            <a href="https://epicode.com/it/" target="_blank"
+            <a class="block" href="https://epicode.com/it/" target="_blank"
               >Validare il codice HTML</a
             >
-            Categoria: develop Data: 18-9-2020
+            Categoria: develop
+            <div>Data: 18-9-2020</div>
           </li>
           <li class="box">
-            <a href="https://epicode.com/it/" target="_blank"
+            <a class="block" href="https://epicode.com/it/" target="_blank"
               >Correggere la sintassi</a
             >
-            Categoria: develop Data: 16-9-2020
+            Categoria: develop
+            <div>Data: 16-9-2020</div>
           </li>
           <li class="box">
-            <a href="https://epicode.com/it/" target="_blank"
+            <a class="block" href="https://epicode.com/it/" target="_blank"
               >Meno Kb nella pagina</a
             >
-            Categoria: ottimizzazione Data: 30-9-2020
+            Categoria: ottimizzazione
+            <div>Data: 30-9-2020</div>
           </li>
         </ul>
       </nav>
     </main>
-    <footer class="background_blue">
+    <footer class="background_gradient shadow">
       <p>Blog Epicode &copy;2023</p>
       <p>
         Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
