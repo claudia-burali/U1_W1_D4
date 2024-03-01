@@ -25,21 +25,29 @@
     />
   </head>
   <body>
-    <header class="background_blue shadow">
+    <header id="menu" class="shadow">
       <img id="logo" src="/assets/img/logo.svg" />
       <h1>EPICODE - IL BLOG DEI DEVELOPERS</h1>
       <ul>
         <li>
-          => <a href="https://epicode.com/it/" target="_blank">HOME</a> <=
-        </li>
-        <li>
           =>
-          <a href="https://epicode.com/it/" target="_blank">ARTICOLI</a>
+          <a class="bold menu" href="https://epicode.com/it/" target="_blank"
+            >HOME</a
+          >
           <=
         </li>
         <li>
           =>
-          <a href="https://epicode.com/it/" target="_blank">LAVORA CON NOI</a>
+          <a class="bold menu" href="https://epicode.com/it/" target="_blank"
+            >ARTICOLI</a
+          >
+          <=
+        </li>
+        <li>
+          =>
+          <a class="bold menu" href="https://epicode.com/it/" target="_blank"
+            >LAVORA CON NOI</a
+          >
           <=
         </li>
       </ul>
@@ -52,7 +60,7 @@
         identificando le <strong>parti comuni</strong> da applicare a tutte le
         pagine.Le varie aree saranno quindi suddivise in:
       </p>
-      <ul class="list">
+      <ul class="ul">
         <li>Contenuti di intestazione del tag <span>&lt;header&gt;</span></li>
         <li>
           Contenuti centrali variabili del tag <span>&lt;main&gt;</span> (corpo
@@ -68,7 +76,7 @@
         Il testo dell'articolo dovrà essere formattato per identificare tutte le
         parti da <strong>selezionare con i CSS</strong>. Perciò i passi saranno:
       </p>
-      <ol class="list">
+      <ol>
         <li>
           Progettare il markup assegnando ad ogni specifico testo il tag
           appropriato
@@ -100,7 +108,7 @@
             <td>20%</td>
             <td>17%</td>
           </tr>
-          <tr>
+          <tr class="tr_background">
             <td>2002</td>
             <td>35%</td>
             <td>22%</td>
@@ -110,7 +118,7 @@
             <td>45%</td>
             <td>42%</td>
           </tr>
-          <tr>
+          <tr class="tr_background">
             <td>2008</td>
             <td>80%</td>
             <td>51%</td>
@@ -125,7 +133,9 @@
       </table>
       <p>
         Un test di validazione potrà essere fatto tramite il
-        <a href="https://epicode.com/it/" target="_blank">tool online</a>
+        <a class="bold" href="https://epicode.com/it/" target="_blank"
+          >tool online</a
+        >
         dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il
         nostro obiettivo ed essere stati dei veri developers come loro:
       </p>
@@ -154,21 +164,21 @@
         <h4 class="bold center">ARTICOLI CORRELATI</h4>
         <ul>
           <li class="box">
-            <a class="block" href="https://epicode.com/it/" target="_blank"
+            <a class="block bold" href="https://epicode.com/it/" target="_blank"
               >Validare il codice HTML</a
             >
             Categoria: develop
             <div>Data: 18-9-2020</div>
           </li>
           <li class="box">
-            <a class="block" href="https://epicode.com/it/" target="_blank"
+            <a class="block bold" href="https://epicode.com/it/" target="_blank"
               >Correggere la sintassi</a
             >
             Categoria: develop
             <div>Data: 16-9-2020</div>
           </li>
           <li class="box">
-            <a class="block" href="https://epicode.com/it/" target="_blank"
+            <a class="block bold" href="https://epicode.com/it/" target="_blank"
               >Meno Kb nella pagina</a
             >
             Categoria: ottimizzazione
@@ -182,8 +192,8 @@
       <p>
         Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
         Luigi Einaudi 2 - Milano. P.IVA 00112233.
-        <a href="https://epicode.com/it/" target="_blank"
-          ><strong id="mail">info@epicode.school</strong></a
+        <a id="mail" class="bold" href="https://epicode.com/it/" target="_blank"
+          >info@epicode.school</a
         >
       </p>
     </footer>
